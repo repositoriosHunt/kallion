@@ -1,0 +1,279 @@
+/*Slide 1*/
+#trigger-overlay{
+	-webkit-animation-delay: .7s;
+	-o-animation-delay: .7s;
+	animation-delay: .7s;
+}
+
+#btnAnt1, #Logo,#btnSig,#slide_2_siete {
+	-webkit-animation-delay: .7s;
+	-o-animation-delay: .7s;
+	animation-delay: .7s;
+}
+#cuando{
+	-webkit-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;
+}
+
+#slide_1_uno{
+	-webkit-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;
+}
+#slide_1_dos{
+	-webkit-animation-delay: 1.2s;
+	-o-animation-delay: 1.2s;
+	animation-delay: 1.2s;
+}
+#slide_2_uno{
+	-webkit-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;
+}
+#slide_2_dos, #slide_2_tres{
+	-webkit-animation-delay: 1.3s;
+	-o-animation-delay: 1.3s;
+	animation-delay: 1.3s;
+}
+#slide_2_cuatro{
+	-webkit-animation-delay: 1.7s;
+	-o-animation-delay: 1.7s;
+	animation-delay: 1.7s;
+}
+#slide_2_cinco{
+	-webkit-animation-delay: 2.1s;
+	-o-animation-delay: 2.1s;
+	animation-delay: 2.1s;
+}
+#slide_2_seis{
+	-webkit-animation-delay: 2.6s;
+	-o-animation-delay: 2.6s;
+	animation-delay: 2.6s;
+}
+#slide_5_uno{
+ 	-webkit-animation-delay: 1.3s;
+	-o-animation-delay: 1.3s;
+	animation-delay: 1.3s;
+ }
+#slide_5_dos{
+ 	-webkit-animation-delay: 1.9s;
+	-o-animation-delay: 1.9s;
+	animation-delay: 1.9s;
+ }
+#slide_5_tres{
+ 	-webkit-animation-delay: 2.1s;
+	-o-animation-delay: 2.1s;
+	animation-delay: 2.1s;
+ }
+ #slide_5_cuatro{
+ 	-webkit-animation-delay: 2.7s;
+	-o-animation-delay: 2.7s;
+	animation-delay: 2.7s;
+ }
+ #slide_5_cinco{
+ 	-webkit-animation-delay: 3.1s;
+	-o-animation-delay: 3.1s;
+	animation-delay: 3.1s;
+ }
+ #slide_5_seis{
+ 	-webkit-animation-delay: 3.7s;
+	-o-animation-delay: 3.7s;
+	animation-delay: 3.7s;
+ }
+ #slide_5_siete{
+ 	-webkit-animation-delay: 4.1s;
+	-o-animation-delay: 4.1s;
+	animation-delay: 4.1s;
+ }
+ #slide_5_ocho{
+ 	-webkit-animation-delay: 4.6s;
+	-o-animation-delay: 4.6s;
+	animation-delay: 4.6s;
+ }
+ #slide_7_tres{
+ 	-webkit-animation-delay: 1.9s;
+	-o-animation-delay: 1.9s;
+	animation-delay: 1.9s;
+
+ }
+ #slide_7_cuatro{
+ 	-webkit-animation-delay: 2.1s;
+	-o-animation-delay: 2.1s;
+	animation-delay: 2.1s;
+
+ }
+ #slide_7_cinco{
+ 	-webkit-animation-delay: 2.8s;
+	-o-animation-delay: 2.8s;
+	animation-delay: 2.8s;
+ }
+ #slide_7_seis{
+ 	-webkit-animation-delay: 3.2s;
+	-o-animation-delay: 3.2s;
+	animation-delay: 3.2s;
+ }
+ #slide_7_siete{
+ 	-webkit-animation-delay: 3.8s;
+	-o-animation-delay: 3.8s;
+	animation-delay: 3.8s;
+ }
+ #slide_7_ocho{
+ 	-webkit-animation-delay: 4.5s;
+	-o-animation-delay: 4.5s;
+	animation-delay: 4.5s;
+ }
+ #slide_9_uno,#slide_9_ocho{
+ 	-webkit-animation-delay: 1.4s;
+	-o-animation-delay: 1.4s;
+	animation-delay: 1.4s;
+
+ }
+ #slide_9_siete, #slide_9_dos{
+ 	-webkit-animation-delay: 1.9s;
+	-o-animation-delay: 1.9s;
+	animation-delay: 1.9s;
+ }
+ #slide_9_seis, #slide_9_tres{
+ 	-webkit-animation-delay: 2.3s;
+	-o-animation-delay:2.3s;
+	animation-delay: 2.3s;
+ }
+#slide_9_cuatro{
+
+ 	-webkit-animation-delay: 2.7s;
+	-o-animation-delay: 2.7s;
+	animation-delay: 2.7s;
+ }
+ #slide_9_cinco{
+
+ 	-webkit-animation-delay: 3s;
+	-o-animation-delay: 3s;
+	animation-delay: 3s;
+ }
+#slide_11_sietesiete{
+ 	-webkit-animation-delay: 1.9s;
+	-o-animation-delay: 1.9s;
+	animation-delay: 1.9s;
+ }
+  #slide_11_dosdos{
+  	-webkit-animation-delay: 2.5s;
+	-o-animation-delay: 2.5s;
+	animation-delay: 2.5s;
+  }
+#slide_11_uno, #slide_11_dos{
+	-webkit-animation-delay: 3s;
+	-o-animation-delay:3s;
+	animation-delay: 3s;
+}
+#slide_11_tres{
+	-webkit-animation-delay: 3.5s;
+	-o-animation-delay:3.5s;
+	animation-delay: 3.5s;
+}
+#slide_11_cuatro{
+	-webkit-animation-delay: 3.8s;
+	-o-animation-delay:3.8s;
+	animation-delay: 3.8s;
+}
+
+#slide_12_uno{
+	-webkit-animation-delay: 1.9s;
+	-o-animation-delay: 1.9s;
+	animation-delay: 1.9s;
+}
+#slide_12_dos,#slide_12_cinco{
+	-webkit-animation-delay: 2.5s;
+	-o-animation-delay:2.5s;
+	animation-delay: 2.5s;
+}
+#slide_12_tres, #slide_12_seis{
+	-webkit-animation-delay: 3.2s;
+	-o-animation-delay:3.2s;
+	animation-delay: 3.2s;
+}
+#slide_12_cuatro,#slide_12_siete{
+	-webkit-animation-delay: 3.6s;
+	-o-animation-delay:3.6s;
+	animation-delay: 3.6s;
+}
+#slide_15_uno,#slide_15_dos{
+	-webkit-animation-delay: 1.9s;
+	-o-animation-delay: 1.9s;
+	animation-delay: 1.9s;
+}
+#slide_15_cuatro, #slide_15_tres{
+	-webkit-animation-delay: 2.5s;
+	-o-animation-delay:2.5s;
+	animation-delay: 2.5s;
+}
+#slide_15_seis{
+	-webkit-animation-delay: 3.2s;
+	-o-animation-delay:3.2s;
+	animation-delay: 3.2s;
+}
+#slide_15_cinco, #slide_15_siete{
+	-webkit-animation-delay: 3.6s;
+	-o-animation-delay:3.6s;
+	animation-delay: 3.6s;
+}
+#slide_17_uno{
+	-webkit-animation-delay: 1.9s;
+	-o-animation-delay: 1.9s;
+	animation-delay: 1.9s;
+}
+#slide_17_dos, #slide_17_tres{
+	-webkit-animation-delay: 2.5s;
+	-o-animation-delay:2.5s;
+	animation-delay: 2.5s;
+}
+#slide_17_cuatro{
+	-webkit-animation-delay: 3.2s;
+	-o-animation-delay:3.2s;
+	animation-delay: 3.2s;
+}
+#slide_17_cinco{
+	-webkit-animation-delay: 3.6s;
+	-o-animation-delay:3.6s;
+	animation-delay: 3.6s;
+}
+#slide_17_seis{
+	-webkit-animation-delay: 3.9s;
+	-o-animation-delay:3.9s;
+	animation-delay: 3.9s;
+}
+#slide_19_uno{
+	-webkit-animation-delay: 1.9s;
+	-o-animation-delay: 1.9s;
+	animation-delay: 1.9s;
+}
+#slide_19_dos, #slide_19_cuatro{
+	-webkit-animation-delay: 2.5s;
+	-o-animation-delay:2.5s;
+	animation-delay: 2.5s;
+}
+#slide_19_tres, #slide_19_cinco{
+	-webkit-animation-delay: 3.2s;
+	-o-animation-delay:3.2s;
+	animation-delay: 3.2s;
+}
+#slide_19_seis{
+	-webkit-animation-delay: 3.6s;
+	-o-animation-delay:3.6s;
+	animation-delay: 3.6s;
+}
+#slide_19_siete{
+	-webkit-animation-delay: 4s;
+	-o-animation-delay:4s;
+	animation-delay: 4s;
+}
+#slide_20_uno{
+	-webkit-animation-delay: 1.9s;
+	-o-animation-delay: 1.9s;
+	animation-delay: 1.9s;
+}
+#slide_20_dos, #slide_20_tres{
+	-webkit-animation-delay: 2.5s;
+	-o-animation-delay:2.5s;
+	animation-delay: 2.5s;
+}

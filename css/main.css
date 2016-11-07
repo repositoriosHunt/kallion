@@ -1,0 +1,568 @@
+body{
+	margin:0;
+	padding:0;
+}
+#trigger-overlay {
+	height: 49px;
+	left: 37px;
+	position: absolute;
+	top: 34px;
+	width: 49px;
+	background: url(../general/menu_icon.png) no-repeat center center;
+	overflow: hidden;
+	border: none;
+}
+#contenedor2 {
+	background: url(../slide_1/cover.jpg) no-repeat left top #fff;;
+	display: block;
+	height: 768px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	width: 1024px;
+}
+#contenedor3 {
+	background: url(../slide_3/back_nubes.jpg) no-repeat left top #fff;;
+	display: block;
+	height: 768px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	width: 1024px;
+}
+#contenedor1 {
+	background: #fff;;
+	display: block;
+	height: 768px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	width: 1024px;
+}
+.overlay {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	margin-left:-512px;
+	top: 0;
+	left: 50%;
+	background:  #fff;;
+}
+.overlay .overlay-close {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	/*right: 20px;*/
+	left:21px;
+	top: 18px;
+	/*overflow: hidden;*/
+	border: none;
+	background: url(../menu/png/x_icon.png) no-repeat center center;
+	/*text-indent: 200%;*/
+	color: transparent;
+	outline: none;
+	z-index: 100;
+}
+/* Effects */
+.overlay-hugeinc {
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+}
+
+.overlay-hugeinc.open {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+/*MENU*/
+#btnAnt1{
+	height: 27px;
+	left: 939px;
+	position: absolute;
+	top:37px;
+	width: 27px;
+}
+#btnSig{
+	height: 27px;
+	left: 896px;
+	position: absolute;
+	top:37px;
+	width: 27px;
+}
+ #cuando{
+ 	position: absolute;
+ 	top:51px;
+ 	left: 347px;
+ }
+ #Logo{
+ 	position: absolute;
+ 	top:605px;
+ 	left: 56px;
+ }
+ #slide_1_uno{
+ 	position: absolute;
+ 	top: 330px;
+    left: 135px;
+ }
+ #slide_1_dos{
+ 	position: absolute;
+    top: 0px;
+    left: 107px;
+ }
+ #slide_2_seis{
+ 	position: absolute;
+    top: 532px;
+    left: 499px;
+ }
+  #slide_2_cinco{
+ 	position: absolute;
+    top: 431px;
+    left: 413px;
+ }
+ #slide_2_cuatro{
+ 	position: absolute;
+    left: 314px;
+    top: 334px;
+ }
+ #slide_2_tres{
+ 	position: absolute;
+    left: 208px;
+    top: 164px;
+ }
+ #slide_2_dos{
+ 	position: absolute;
+    top: 206px;
+    left: 368px;
+ }
+ #slide_2_uno{
+ 	position: absolute;
+    top: 76px;
+    left: 150px;
+ }
+ #slide_2_siete{
+ 	position: absolute;
+    bottom: -3px;
+ }
+ #slide_5_uno{
+ 	position: absolute;
+    left: 111px;
+ }
+ #slide_5_dos{
+ 	position: absolute;
+    top: 101px;
+    right: 100px;
+ }
+ #slide_5_tres{
+ 	position: absolute;
+    top: 197px;
+    left: 171px;
+ }
+ #slide_7_dos{
+ 	position: absolute;
+    top: 52px;
+    right: 143px;
+ }
+#slide_7_tres{
+ 	position: absolute;
+    left: 191px;
+    top: 204px;
+ }
+ #slide_7_cuatro{
+ 	position: absolute;
+    bottom: 82px;
+    left: 138px;
+ }
+ #slide_9_cinco{
+ 	position: absolute;
+    top: 359px;
+    left: 451px;
+ }
+ #slide_9_cuatro{
+ 	position: absolute;
+    top: 350px;
+    left: 300px;
+ }
+ #slide_9_tres{
+ 	position: absolute;
+    top: 256px;
+    left: 88px;
+ }
+ #slide_9_uno{
+ 	position: absolute;
+    top: 191px;
+    left: 200px;
+ }
+ #slide_9_dos{
+ 	position: absolute;
+    top: 302px;
+    left: 101px;
+ }
+ #slide_9_seis{
+ 	position: absolute;
+    left: 787px;
+    top: 264px;
+ }
+ #slide_9_siete{
+ 	position: absolute;
+    right: 50px;
+    top: 303px;
+ }
+ #slide_9_ocho{
+ 	position: absolute;
+ 	bottom: 71px;
+ 	left: 73px;
+ }
+ #slide_11_dosdos{
+ 	position: absolute;
+    left: 91px;
+    top: 250px;
+ }
+ #slide_11_sietesiete{
+ 	position: absolute;
+    right: 109px;
+    top: 250px;
+ }
+ #slide_11_uno{
+ 	position: absolute;
+ 	bottom: 156px;
+ 	left: 194px;
+ }
+ #slide_11_dos{
+ 	 position: absolute;
+    bottom: 49px;
+    right: 154px;
+ }
+ #slide_11_tres{
+ 	position: absolute;
+    left: 250px;
+    bottom: 211px;
+ }
+ #slide_11_cuatro{
+ 	position: absolute;
+    left: 249px;
+    bottom: 286px;
+ }
+#menutitulo{
+	position:absolute;
+	left:112px;
+	top:132px;
+}
+#LogoMenu{
+	position: absolute;
+	left: 107px;
+}
+.overlay .overlay-close {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left:22px;
+	top: 18px;
+	/*overflow: hidden;*/
+	border: none;
+	background: url(../menu/close_icon.png) no-repeat center center;
+	/*text-indent: 200%;*/
+	color: transparent;
+	outline: none;
+	z-index: 100;
+}
+#opcion1{
+	position: absolute;
+    left: 245px;
+    top: 132px;
+}
+#opcion2{
+	position: absolute;
+    left: 245px;
+    top: 200px;
+}
+#opcion3{
+	position: absolute;
+    left: 245px;
+    top: 268px;
+}
+#opcion4{
+	position: absolute;
+    left: 245px;
+    top: 336px;
+}
+#opcion5{
+	position: absolute;
+    left: 245px;
+    top: 404px;
+}
+#opcion6{
+	position: absolute;
+    top: 472px;
+    left: 245px;
+}
+#opcion7{
+	position: absolute;
+    left: 245px;
+    top: 540px;
+}
+#opcion8{
+	position: absolute;
+    left: 245px;
+    top: 608px;
+}
+#opcion9{
+	position: absolute;
+    left: 245px;
+    top: 676px;
+}
+#slide_12_uno{
+	position: absolute;
+    top: 60px;
+    right: 167px;
+}
+#slide_12_dos{
+	position: absolute;
+    top: 267px;
+    left: 125px;
+}
+#slide_12_tres{
+	 position: absolute;
+    top: 267px;
+    left: 399px;
+}
+#slide_12_cuatro{
+	position: absolute;
+    top: 267px;
+    left: 687px;
+}
+#slide_12_cinco{
+	position: absolute;
+    bottom: 161px;
+    left: 121px;
+}
+#slide_12_seis{
+	 position: absolute;
+    bottom: 161px;
+    left: 510px;
+}
+#slide_12_siete{
+	position: absolute;
+    bottom: 118px;
+    left: 721px;
+}
+#slide_15_uno{
+	position: absolute;
+    left: 62px;
+    bottom: 245px;
+}
+#slide_15_dos{
+	position: absolute;
+    right: 140px;
+    bottom: 245px;
+}
+#slide_15_tres{
+	position: absolute;
+    left: 107px;
+    bottom: 282px;
+}
+#slide_15_cuatro{
+	position: absolute;
+    right: 146px;
+    bottom: 282px;
+}
+#slide_15_cinco{
+	position: absolute;
+    right: 120px;
+    bottom: 123px;
+}
+#slide_15_seis{
+	position: absolute;
+    left: 438px;
+    bottom: 229px;
+}
+#slide_15_siete{
+	position: absolute;
+    bottom: 136px;
+    left: 100px;
+}
+#slide_17_uno{
+	position: absolute;
+    top: 170px;
+    left: 136px;
+}
+#slide_17_dos{
+	position: absolute;
+    top: 311px;
+    left: 100px;
+}
+#slide_17_tres{
+	position: absolute;
+    left: 718px;
+    top: 178px;
+}
+#slide_17_cuatro{
+	position: absolute;
+    left: 367px;
+    top: 480px;
+}
+#slide_17_cinco{
+	position: absolute;
+    bottom: 79px;
+    left: 61px;
+}
+#slide_17_seis{
+	position: absolute;
+    right: 40px;
+    bottom: 67px;
+}
+#slide_19_uno{
+	position: absolute;
+    right: 149px;
+    top: 85px;
+}
+#slide_19_dos{
+	position: absolute;
+    right: 83px;
+    top: 246px;
+}
+#slide_19_tres{
+	position: absolute;
+    left: 505px;
+    bottom: 168px;
+}
+#slide_19_cuatro{
+	position: absolute;
+    left: 73px;
+    top: 206px;
+}
+#slide_19_cinco{
+	position: absolute;
+    left: 275px;
+    top: 297px;
+}
+#slide_19_seis{
+	position: absolute;
+    left: 82px;
+    top: 362px;
+}
+#slide_19_siete{
+	position: absolute;
+    left: 293px;
+    bottom: 210px;
+}
+#slide_19_ocho{
+	position: absolute;
+    left: 100px;
+    bottom: 108px;
+}
+#slide_20_uno{
+	position: absolute;
+    left: 91px;
+    top: 152px;
+}
+#slide_20_dos{
+	position: absolute;
+    left: 91px;
+    top: 203px;
+}
+#slide_20_tres{
+	position: absolute;
+    top: 203px;
+    right: 43px;
+}
+#slide_20_cuatro{
+	position: absolute;
+    bottom: 42px;
+    left: 100px;
+}
+#slide_20_cinco{
+	position: absolute;
+    right: 48px;
+    bottom: 43px;
+}
+
+
+#slide_5_cuatro{
+    position: absolute;
+    left:151px;
+    top:238px;
+}
+#slide_5_cinco{
+    position: absolute;
+    left: 205px;
+    top: 337px;
+}
+
+#slide_5_ocho{
+    position: absolute;
+    right: 190px;
+    top: 449px;
+}
+#slide_5_siete{
+    position: absolute;
+    right: 446px;
+    top: 449px;
+}
+#slide_5_seis{
+    position: absolute;
+    left: 197px;
+    top: 449px;
+}
+#slide_7_ocho{
+    position: absolute;
+    left: 226px;
+    bottom: 185px;
+}
+#slide_7_siete{
+    position: absolute;
+    left: 222px;
+    top: 321px;
+}
+#slide_7_seis{
+    position: absolute;
+    left: 111px;
+    bottom: 142px;
+}
+#slide_7_cinco{
+    position: absolute;
+    left: 232px;
+    bottom: 185px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
