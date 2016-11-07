@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+	xmlns:gap   = "http://phonegap.com/ns/1.0"
+	id          = "com.phonegap.example"
+	version     = "0.0.1">
+
+	<name>Tysabri Natalizumab</name>
+	
+	<description>App para STENDHAL</description>
+	
+	<author href="http://hunt.com.mx" email="gerardo.mejia@hunt.com.mx">Gerardo Mejía</author>
+	
+	<preference name="webviewbounce" value="false" />
+	<preference name="prerendered-icon" value="true" />
+	<preference name="ios-statusbarstyle" value="black-translucent" />
+	<preference name="fullscreen" value="true" />
+	<preference name="orientation" value="landscape" />
+	<preference name="target-device" value="universal" />
+	
+	<gap:config-file platform="ios" parent="UISupportedInterfaceOrientations" overwrite="true">
+        <array>
+            <string>UIInterfaceOrientationLandscapeOmg</string>
+        </array>
+    </gap:config-file>
+    <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true">
+    <false/>
+</gap:config-file>
+	
+	<icon src="icon.png" />
+	
+	<gap:splash src="assets/images/template/startup_landscape.jpg" gap:platform="ios" width="1024" height="768" />
+	<gap:splash src="assets/images/template/startup_portrait.jpg" gap:platform="ios" width="768" height="1024" />
+
+</widget>

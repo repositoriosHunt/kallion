@@ -99,7 +99,7 @@ body{
  }
  #Logo{
  	position: absolute;
- 	top:605px;
+ 	top:630px;
  	left: 56px;
  }
  #slide_1_uno{
@@ -145,6 +145,51 @@ body{
  #slide_2_siete{
  	position: absolute;
     bottom: -3px;
+ }
+ #slide_2_diezocho{
+    position: absolute;
+    left: 155px;
+    bottom: -3px;
+ }
+ #slide_2_diez{
+    position: absolute;
+    left: 227px;
+    bottom: -3px;
+ }
+ #slide_2_once{
+    position: absolute;
+    left:319px;
+    bottom: -3px;
+ }
+ #slide_2_doce{
+    left:417px;
+    bottom: -3px;
+    position: absolute;
+ }
+ #slide_2_trece{
+    left:500px;
+    bottom: -3px;
+    position: absolute;
+ }
+ #slide_2_catorce{
+    left: 580px;
+    bottom: -3px;
+    position: absolute;
+ }
+ #slide_2_quince{
+    left:711px;
+    bottom: -3px;
+    position: absolute;
+ }
+ #slide_2_diezseis{
+    left: 827px;
+    bottom: -3px;
+    position: absolute;
+ }
+ #slide_2_diezsiete{
+    left: 900px;
+    bottom: -3px;
+    position: absolute;
  }
  #slide_5_uno{
  	position: absolute;
@@ -487,24 +532,24 @@ body{
 }
 #slide_5_cinco{
     position: absolute;
-    left: 205px;
-    top: 337px;
+    left: 153px;
+    top: 241px;
 }
 
 #slide_5_ocho{
     position: absolute;
-    right: 190px;
-    top: 449px;
+    right: 202px;
+    bottom: 287px;
 }
 #slide_5_siete{
     position: absolute;
-    right: 446px;
-    top: 449px;
+    right: 447px;
+    top: 306px;
 }
 #slide_5_seis{
     position: absolute;
-    left: 197px;
-    top: 449px;
+    left: 191px;
+    top: 300px;
 }
 #slide_7_ocho{
     position: absolute;
@@ -515,6 +560,7 @@ body{
     position: absolute;
     left: 222px;
     top: 321px;
+    z-index: 2;
 }
 #slide_7_seis{
     position: absolute;
@@ -528,8 +574,27 @@ body{
 }
 
 
+.avisoCFP{
+    display: none;
+    font-family: arial;
+    position: absolute;
+    top: 90px;
+    font-size: 10px;
+    left: -30px;
+    color: #333;
+-webkit-transform: rotate(270deg);
+-moz-transform: rotate(270deg);
+-o-transform: rotate(270deg);
+writing-mode: rl-tb;
+-webkit-animation-delay: 1s;
+-o-animation-delay: 1s;
+animation-delay: 1s;
+}
 
 
+.avisoCFP.blanco{
+    color: #FFF;
+}
 
 
 

@@ -5,7 +5,7 @@
 	animation-delay: .7s;
 }
 
-#btnAnt1, #Logo,#btnSig,#slide_2_siete {
+#btnAnt1, #Logo,#btnSig,#slide_2_siete, #slide_2_diez, #slide_2_once, #slide_2_doce, #slide_2_trece, #slide_2_catorce, #slide_2_quince,#slide_2_diezseis, #slide_2_diezsiete,#slide_2_diezocho {
 	-webkit-animation-delay: .7s;
 	-o-animation-delay: .7s;
 	animation-delay: .7s;
@@ -91,7 +91,7 @@
 	-o-animation-delay: 4.6s;
 	animation-delay: 4.6s;
  }
- #slide_7_tres{
+ #slide_7_dos,#slide_7_tres{
  	-webkit-animation-delay: 1.9s;
 	-o-animation-delay: 1.9s;
 	animation-delay: 1.9s;

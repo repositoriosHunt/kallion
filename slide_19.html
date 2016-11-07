@@ -2,25 +2,34 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Filarin</title>
+	<title>Kallion</title>
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/delays.css">
+	<link rel="stylesheet" href="css/lightbox.css">
 	<script src="js/modernizr.custom.js"></script>
 </head>
 <body>
 	<div id="contenedor1">
-		<div id="btnAnt1" class="animated fadeInDown"><a href="slide_20.html"><img src="general/flechas.png"></a></div>
-		<!--Menu-->
-		<button type="button" id="trigger-overlay" class="animated fadeInLeft"></button>
-		<!--Menu-->
-		<div id="btnSig" class="animated fadeInDown"><a href="slide_18.html"><img src="general/f_izq.png"></a></div>
+		
+		<div id="btnAnt1" class="animated fadeInDown"><a href="slide_21.html"><img src="general/flechas.png"></a></div>
+		
+		<div id="btnSig" class="animated fadeInDown"><a href="slide_17.html"><img src="general/f_izq.png"></a></div>
 		<!--<img src="slide_1/png/br_titu.png" class="animated fadeInLeft seccion" alt="">-->
-		<div id="slide_5_uno" class="animated fadeInDown"><img src="slide_5/kallions_log.png"></div>
+		<div id="slide_5_uno" class="animated fadeInDown"><a href="index.html"><img src="slide_5/kallions_log.png"></a></div>
 
 		<div id="slide_19_uno" class="animated fadeInRight"><img src="slide_18/fda.png"></div>
-		<div id="slide_19_dos" class="animated fadeInRight"><img src="slide_18/product_shot.png"></div>
-		<div id="slide_19_tres" class="animated fadeInUp"><img src="slide_18/150_600mg.png"></div>
+		<div class="lightbox-image">
+		<div id="slide_19_dos" class="animated fadeInRight">
+			<a class="example-image-link" href="img/productShot.jpg" data-lightbox="lightbox">
+				<img src="slide_18/product_shot.png">
+			</a></div>
+	</div>
+	<div class="lightbox-image">
+		<div id="slide_19_tres" class="animated fadeInUp">
+			<a class="example-image-link" href="img/productShot.jpg" data-lightbox="lightbox">
+			<img src="slide_18/150_600mg.png">
+			<a></div></div>
 		<div id="slide_19_cuatro" class="animated fadeInUp"><img src="slide_18/tex_1.png"></div>
 		<div id="slide_19_cinco" class="animated fadeInUp"><img src="slide_18/text_2.png"></div>
 		<div id="slide_19_seis" class="animated fadeInUp"><img src="slide_18/text_3.png"></div>
@@ -29,31 +38,24 @@
 
 
 		
-		<div id="slide_2_siete" class="animated fadeIn"><img src="slide_18/banda_kallion.png"></div>
+		<div id="slide_2_siete" class="animated fadeIn"><img src="bandas/bandas/banda_kallion.png"></div>
+		<div id="slide_2_diezocho" class="animated fadeIn"><a href="slide_3.html"><img src="bandas/btnsMenu/btn1.png"></a></div>
+		<div id="slide_2_diez" class="animated fadeIn"><a href="slide_5.html"><img src="bandas/btnsMenu/btn2.png"></a></div>
+		<div id="slide_2_once" class="animated fadeIn"><a href="slide_7.html"><img src="bandas/btnsMenu/btn3.png"></a></div>
+		<div id="slide_2_doce" class="animated fadeIn"><a href="slide_9.html"><img src="bandas/btnsMenu/btn4.png"></a></div>
+		<div id="slide_2_trece" class="animated fadeIn"><a href="slide_11.html"><img src="bandas/btnsMenu/btn5.png"></a></div>
+		<div id="slide_2_catorce" class="animated fadeIn"><a href="slide_13.html"><img src="bandas/btnsMenu/btn6.png"></a></div>
+		<div id="slide_2_quince" class="animated fadeIn"><a href="slide_15.html"><img src="bandas/btnsMenu/btn7.png"></a></div>
+		<div id="slide_2_diezseis" class="animated fadeIn"><a href="slide_17.html"><img src="bandas/btnsMenu/btn8.png"></a></div>
+		<div id="slide_2_diezsiete" class="animated fadeIn"><a href="slide_19.html"><img src="bandas/btnsMenu/btn9.png"></a></div>
 
 
 
 	</div>	
-	<div class="overlay overlay-hugeinc">
-		<button type="button" id="close" class="overlay-close">Close</button>
-		
-			<div id="menutitulo"><a href="#"><img src="menu/menu.png"></a></div>
-			<div id="menuprincipal" class="animate fadeIn">
-
-			<div id="opcion1"><a href="slide_2.html"><img src="menu/dtos.png"></a></div>
-			<div id="opcion2"><a href="slide_4.html"><img src="menu/sucrol.png"></a></div>
-			<div id="opcion3"><a href="slide_6.html"><img src="menu/z_control.png"></a></div>
-			<div id="opcion4"><a href="slide_8.html"><img src="menu/corto_p.png"></a></div>
-			<div id="opcion5"><a href="slide_10.html"><img src="menu/largo_p.png"></a></div>
-			<div id="opcion6"><a href="slide_12.html"><img src="menu/ader.png"></a></div>
-			<div id="opcion7"><a href="slide_14.html"><img src="menu/seguridad.png"></a></div>
-			<div id="opcion8"><a href="slide_16.html"><img src="menu/dosis.png"></a></div>
-			<div id="opcion9"><a href="slide_18.html"><img src="menu/kallion.png"></a></div>
-		</div><!--menu principal-->
-			<div id="LogoMenu"> <img src="slide_2/kallions.png"></div>
-
-		</div>
+	
+		<script src="js/jquery-1.11.1.min.js"></script>
 		<script src="js/classie.js"></script>
 		<script src="js/demo1.js"></script>
+		<script src="js/lightbox.js"></script>
 </body>
 </html>
